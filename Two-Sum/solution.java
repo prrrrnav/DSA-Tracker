@@ -1,6 +1,17 @@
-[2,7,11,15]
-9
-[3,2,4]
-6
-[3,3]
-6
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+       
+        HashMap<Integer,Integer> hm = new HashMap<>();
+
+
+        for(int i =0;i<nums.length;i++){
+            int needed = target - nums[i]; 
+            if(hm.containsKey(needed)){
+                return new int[]{hm.get(needed),i};
+            }
+            hm.put(nums[i],i);
+        }
+
+        return new int[]{};
+    }
+}
