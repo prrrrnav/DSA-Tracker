@@ -1,4 +1,4 @@
-        if(item == '(){
+        if(item == '('){
             stack.push(')');
         }
        }
