@@ -5,8 +5,8 @@ class Solution {
             if(set.contains(i)){
                 return false;
             }
-            set.put(i);
+            set.add(i);
         }
     }
-            
+
 }
