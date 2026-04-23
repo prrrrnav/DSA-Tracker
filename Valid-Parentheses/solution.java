@@ -13,7 +13,7 @@
 
 
        for(char i : s.toCharArray()){
-        if(stac)
+        if(stack.top == i)
         }
        }
         Deque<String> stack = new ArrayDeque<>();
