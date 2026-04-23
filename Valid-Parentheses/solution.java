@@ -1,4 +1,3 @@
-        if(item == '('){
             stack.push(')');
         }
        }
@@ -18,8 +17,7 @@
         else{
             return false;
         }
-       for(char item : s.toCharArray()){
-
-        Deque<char> stack = new ArrayDeque<>();
-    public boolean isValid(String s) {
-class Solution {
+       }
+    return true;
+    }
+}
