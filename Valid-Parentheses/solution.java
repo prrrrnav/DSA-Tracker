@@ -10,7 +10,6 @@
 
 
     
-       }
     return true;
     }
 }
@@ -19,3 +18,4 @@
 
        for(char item : s.toCharArray()){
         if(item == '('){
+class Solution {
