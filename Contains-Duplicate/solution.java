@@ -3,7 +3,7 @@ class Solution {
         Set<Integer> set = new HashSet<>();
         for(int i:nums){
             if(set.contains(i)){
-                return 
+                return fasle
             }
             set.put(i);
         }
