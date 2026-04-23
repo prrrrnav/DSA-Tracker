@@ -11,7 +11,7 @@ class Solution {
             stack.push('}')
         }
         else if(item == '['){
-            stack.push
+            stack.push()
         }
     }
 }
