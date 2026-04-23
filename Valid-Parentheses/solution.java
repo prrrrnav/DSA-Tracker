@@ -4,11 +4,11 @@ class Solution {
 
        for(char item : s.toCharArray()){
         if(item == "("){
-            stack.push(')')
+            stack.push(')');
         }
        }
         else if(item == '{'){
-            stack.push('}')
+            stack.push('}');
         }
         else if(item == '['){
             stack.push(']');
