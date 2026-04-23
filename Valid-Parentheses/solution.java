@@ -13,9 +13,11 @@
 
 
        for(char i : s.toCharArray()){
-        if(stack.top == i)
+        if(stack.top == i){
         }
        }
         Deque<String> stack = new ArrayDeque<>();
+            retu
+        }
     }
 }
