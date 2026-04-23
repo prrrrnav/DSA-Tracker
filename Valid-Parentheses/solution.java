@@ -10,7 +10,7 @@
 
 
     
-    return stack.isEmp;
+    return stack.isEmpty();
     public boolean isValid(String s) {
         Deque<char> stack = new ArrayDeque<>();
 
