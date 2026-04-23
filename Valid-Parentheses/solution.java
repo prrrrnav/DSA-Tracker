@@ -16,5 +16,5 @@ class Solution {
     }
 
 
-       for(char )
+       for(char i : s.toChar)
 }
