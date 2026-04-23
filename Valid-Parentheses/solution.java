@@ -3,5 +3,5 @@ class Solution {
         Deque<String> stack = new ArrayDeque<>();
 
     }
-       for(s.toCharArray())
+       for(item s.toCharArray())
 }
