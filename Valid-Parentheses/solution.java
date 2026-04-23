@@ -13,13 +13,9 @@
 
 
        for(char i : s.toCharArray()){
-         if(item == "("){
-            stack.push(')');
-        }
-        else if(item == '{'){
-            stack.push('}');
-        }
-        else if(item == '['){
-            stack.push(']');
+        if(stac)
         }
        }
+        Deque<String> stack = new ArrayDeque<>();
+    }
+}
