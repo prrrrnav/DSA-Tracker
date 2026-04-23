@@ -1,6 +1,6 @@
             stack.push(')');
         }
-       }
+    
         else if(item == '{'){
             stack.push('}');
         }
