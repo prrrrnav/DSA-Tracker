@@ -10,7 +10,7 @@
 
 
        for(char i : s.toCharArray()){
-        if(stack.top == i){
+        if(stack.peek() == i){
         }
             stack.pop();
         }
