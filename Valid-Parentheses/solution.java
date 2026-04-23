@@ -13,8 +13,10 @@ class Solution {
         else if(item == '['){
             stack.push(']');
         }
+
+
+       for(char i : s.toCharArray()){
+        
+       }
     }
-
-
-       for(char i : s.toCharArray())
 }
