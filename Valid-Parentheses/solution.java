@@ -1,6 +1,6 @@
             stack.push(')');
         }
-    
+    return stack.isEmpty();
         else if(item == '{'){
             stack.push('}');
         }
@@ -8,9 +8,6 @@
             stack.push(']');
         }
 
-
-    
-return stack.isEmpty();
         if(item == '('){
         else{
             if(stack.isEmpty() || stack.pop()!=item){
@@ -19,3 +16,6 @@ return stack.isEmpty();
             }
     }
 }
+       for(char item : s.toCharArray()){
+
+        Deque<char> stack = new ArrayDeque<>();
