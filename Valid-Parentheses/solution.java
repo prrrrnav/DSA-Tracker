@@ -9,15 +9,13 @@
         }
 
 
-       for(char i : s.toCharArray()){
-        if(stack.peek() == i){
-        }
-            stack.pop();
-        }
-        else{
-            return false;
-        }
+    
        }
     return true;
     }
 }
+    public boolean isValid(String s) {
+        Deque<char> stack = new ArrayDeque<>();
+
+       for(char item : s.toCharArray()){
+        if(item == '('){
