@@ -20,7 +20,7 @@ class Solution {
         else{
             if(stack.isEmpty() || stack.pop()!=item){
         }
-                
+                return false;
             }
     }
 }
