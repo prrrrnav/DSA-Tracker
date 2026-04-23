@@ -10,13 +10,8 @@
 
 
     
-    return stack.isEmpty();
-    public boolean isValid(String s) {
-        Deque<char> stack = new ArrayDeque<>();
-
-       for(char item : s.toCharArray()){
+return stack.isEmpty();
         if(item == '('){
-class Solution {
         else{
             if(stack.isEmpty() || stack.pop()!=item){
         }
