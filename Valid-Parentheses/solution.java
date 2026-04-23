@@ -10,6 +10,8 @@ class Solution {
         else if(item == '{'){
             stack.push('}')
         }
+        else if(item == '['){
+            stack.push
+        }
     }
-        else if(item == '[')
 }
