@@ -14,4 +14,7 @@ class Solution {
             stack.push(']');
         }
     }
+
+
+       f
 }
