@@ -1,6 +1,6 @@
 class Solution {
     public boolean isValid(String s) {
-        Deque<Integer> stack = new ArrayDeque<>();
+        Deque<String> stack = new ArrayDeque<>();
 
     }
         if()
