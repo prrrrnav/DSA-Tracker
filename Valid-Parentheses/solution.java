@@ -20,7 +20,7 @@
             stack.pop();
         }
         else{
-            return 
+            return false;
         }
     }
 }
