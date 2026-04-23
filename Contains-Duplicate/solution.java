@@ -1,13 +1,9 @@
-class Solution {
-    public boolean containsDuplicate(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-        for(int i:nums){
-            if(set.contains(i)){
-                return false;
-            }
-            set.add(i);
-        }
-    }
-
-        return f
-}
+[1,2,3,1]
+[1,2,3,4]
+[1,1,1,3,3,4,3,2,4,2]
+false
+true
+false
+true
+false
+true
