@@ -15,7 +15,8 @@
                 return false;
             }
     }
-}
        for(char item : s.toCharArray()){
 
         Deque<char> stack = new ArrayDeque<>();
+       }
+}
