@@ -19,6 +19,8 @@
         Deque<String> stack = new ArrayDeque<>();
             stack.pop();
         }
+        else{
+            return 
+        }
     }
-        
 }
