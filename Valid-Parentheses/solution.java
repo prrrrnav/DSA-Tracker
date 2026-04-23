@@ -2,6 +2,8 @@ class Solution {
     public boolean isValid(String s) {
         Deque<String> stack = new ArrayDeque<>();
 
+       for(char item : s.toCharArray()){
+        
+       }
     }
-      ·‌for(item·‌:·‌s.toCharArray())
 }
