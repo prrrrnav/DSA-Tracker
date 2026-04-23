@@ -17,6 +17,8 @@
     }
        for(char item : s.toCharArray()){
 
-        Deque<char> stack = new ArrayDeque<>();
+        Deque<Character> stack = new ArrayDeque<>();
        }
 }
+class Solution {
+    public boolean isValid(String s) {
