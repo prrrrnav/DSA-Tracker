@@ -4,7 +4,7 @@ class Solution {
 
        for(char item : s.toCharArray()){
         if(item == "("){
-            stack
+            stack.push('')
         }
        }
     }
