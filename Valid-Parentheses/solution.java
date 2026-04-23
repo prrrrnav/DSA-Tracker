@@ -18,7 +18,7 @@
         if(item == '('){
 class Solution {
         else{
-            if(stack.is)
+            if(stack.isEmpty())
         }
     }
 }
